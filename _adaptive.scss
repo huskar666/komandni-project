@@ -356,4 +356,61 @@
             }
         }
     }
+    .consumable{
+        &__content{
+           flex-wrap: wrap !important;
+           justify-content: space-evenly !important;
+
+           &--milkchoc{
+            width: 336px !important;
+           }
+           &--milk{
+            width: 336px !important;
+            top: 303px;
+            right: 360px;
+           }
+           &--nuts{
+            margin-top: 32px !important;
+            width: 336px !important;
+            left: 360px;
+           }
+           &--sweetchoc{
+            margin-top: 32px !important;
+            width: 336px !important;
+            bottom: 305px;
+           }
+        }
+            .overlay{
+
+        &__text2{
+            width: 300px;
+        }
+    }
+    }
+
 }
+@media (max-width:680px){
+
+    .consumable{
+        &__content{
+            justify-content: center !important;
+
+            &--milk{
+                margin-top: 32px !important;
+                width: 336px !important;
+                top: 0;
+                right: 0;
+               }
+               &--nuts{
+                margin-top: 32px !important;
+                width: 336px !important;
+                left: 0;
+               }
+               &--sweetchoc{
+                margin-top: 32px !important;
+                width: 336px !important;
+                bottom: 0;
+               }
+            }
+        }
+    }
