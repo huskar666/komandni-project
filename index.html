@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
@@ -325,7 +325,137 @@
         <div class="videoblog__line">
         </div>
     </section>
+    <section class="top-sellers">
+        <h3 class="top-sellers__title"> TOP <span class="top-sellers__title--span">SELLERS</span></h3>
+        <div class="top-sellers__imgs">
+            <img class="top-sellers__imgs--img1" src="./img/chocolate11.png" alt="img">
+            <p class="top-sellers__imgs--text">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans. </p>
+            <img class="top-sellers__imgs--img2" src="./img/chocolate22.png" alt="img">
+            <img class="top-sellers__imgs--img3" src="./img/chocolate33.png" alt="img">
+        </div>
+        <div class="top-sellers__container">
+            <p class="top-sellers__container--text">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+            <button class="top-sellers__container--button" id="openModal1" >Buy now</button>
+                        <div id="modal1" class="modal1">
+                            <span class="close" id="closeModal1">&times;</span>
+                            <div class="modal-content">
+                              <div class="modal1__titles">
+                                <h1 class="modal1__titles--title1"> BUY </h1>
+                                <h1 class="modal1__titles--title2"> NOW</h1>
+                            </div>
+                            <div class="modal1__cards">
+                                <div class="modal1__cards--card1">
+                                    <img class="modal1__cards--card--photo" src="./img/chocolate1.png" alt="chocolate1">
+                                    <button class="modal1__cards--card--button">100g</button>
+                                </div>
+                                <div class="modal1__cards--card2">
+                                    <img class="modal1__cards--card--photo" src="./img/chocolate2.png" alt="chocolate2">
+                                    <button class="modal1__cards--card--button">200g</button>
+                                </div>
+                                <div class="modal1__cards--card3">
+                                    <img class="modal1__cards--card--photo" src="./img/chocolate3.png" alt="chocolate3">
+                                    <button class="modal1__cards--card--button">300g</button>
+                                </div>
+                                
+                                <svg  class="modal1__cards--svg" width="81" height="13" viewBox="0 0 81 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 0H7C3.41015 0 0.5 2.91015 0.5 6.5C0.5 10.0899 3.41015 13 7 13H22C25.5899 13 28.5 10.0899 28.5 6.5C28.5 2.91015 25.5899 0 22 0Z" fill="#FD9222"/>
+                                    <path d="M48 13C51.5899 13 54.5 10.0899 54.5 6.5C54.5 2.91015 51.5899 0 48 0C44.4101 0 41.5 2.91015 41.5 6.5C41.5 10.0899 44.4101 13 48 13Z" fill="#111111" fill-opacity="0.1"/>
+                                    <path d="M74 13C77.5899 13 80.5 10.0899 80.5 6.5C80.5 2.91015 77.5899 0 74 0C70.4101 0 67.5 2.91015 67.5 6.5C67.5 10.0899 70.4101 13 74 13Z" fill="#111111" fill-opacity="0.1"/>
+                                    </svg>
+                            </div>
+                            
+                            <div class="modal1__container">
+                                <div class="modal1__container--form1">
+                                    <h4 class="modal1__container--form1--text1">Personal information</h4>
+                                    <div class="modal1__container--names">
+                                        <form>
+                                            <input class="modal1__container--names--form1" id="name" placeholder="Name">
+                                        </form>
+                                        <form>
+                                            <input class="modal1__container--names--form2" id="surname" placeholder="Surname">
+                                        </form>
+                                    </div>
+                                </div>
+                        
+                                <div class="modal1__container--form2">
+                                    <h4 class="modal1__container--form2--text2">Email</h4>
+                                    <form>
+                                        <input class="modal1__container--form2--form2" type="email" id="email" placeholder="Enter your email">
+                                    </form>
+                                </div>
+                                <div class="modal1__container--form3">
+                                    <h4 class="modal1__container--form3--text3">Phone number</h4>
+                                    <div class="modal1__container--form3--input">
+                                        <svg class="modal1__container--form3--input--svg" width="32" height="25" viewBox="0 0 32 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_1184)">
+                                                <path d="M31.8318 1.05835H0.242676V24.5665H31.8318V1.05835Z" fill="#FFD700"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.242676 1.05835H31.8318V12.8124H0.242676V1.05835Z" fill="#0057B7"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_1184">
+                                                    <rect width="32" height="24" fill="white" transform="translate(0 0.799988)"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="modal1__container--form3--input--span">+380</span>
+                                        <form>
+                                            <input class="modal1__container--form3--input--form3" type="text" id="phone" placeholder="Phone number">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="modal1__container--form4">
+                                    <h4 class="modal1__container--form4--text4">Card number</h4>
+                                    <div class="modal1__container--form4--input">
+                                        <form>
+                                            <input class="modal1__container--form4--input--form4" type="text" id="card" placeholder="Enter card number">
+                                        </form>
+                                        <svg class="modal1__container--form4--input--svg" width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16.8343C14.4022 18.2053 12.3295 19.033 10.0647 19.033C5.01106 19.033 0.914307 14.9122 0.914307 9.82898C0.914307 4.74576 5.01106 0.625 10.0647 0.625C12.3295 0.625 14.4022 1.45267 16 2.82371C17.5979 1.45267 19.6705 0.625 21.9354 0.625C26.989 0.625 31.0857 4.74576 31.0857 9.82898C31.0857 14.9122 26.989 19.033 21.9354 19.033C19.6705 19.033 17.5979 18.2053 16 16.8343Z" fill="#ED0006"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16.8343C17.9674 15.1461 19.215 12.6341 19.215 9.82898C19.215 7.02389 17.9674 4.51189 16 2.82371C17.5978 1.45267 19.6705 0.625 21.9354 0.625C26.989 0.625 31.0857 4.74576 31.0857 9.82898C31.0857 14.9122 26.989 19.033 21.9354 19.033C19.6705 19.033 17.5978 18.2053 16 16.8343Z" fill="#F9A000"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0001 16.8343C17.9675 15.1462 19.2151 12.6342 19.2151 9.82909C19.2151 7.02402 17.9675 4.51203 16.0001 2.82385C14.0327 4.51203 12.7852 7.02402 12.7852 9.82909C12.7852 12.6342 14.0327 15.1462 16.0001 16.8343Z" fill="#FF5E00"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="modal1__container--form5">
+                                    <h4 class="modal1__container--form5--text5">Comment</h4>
+                                    <form>
+                                        <input class="modal1__container--form5--input--form5" type="text" id="comment" placeholder="Enter text">
+                                    </form>
+                                </div>
+                                <button id="openModal2" class="modal1__container--button">Submit</button>
+                            </div>
+                            </div>
+                            
+                          </div>
+                         
+                          <div class="modal222" id="modal2" >
+                            <img src="./img/thanks-chocolate.png" alt="thanks-chocolate" class="modal222__img">
+                            <img src="./img/thanks-chocolate-phone.png" alt="thanks-chocolate-phone" class="modal222__img--phone">
+                            <svg class="modal222__svg" id="closeModal2" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19" cy="19" r="19" fill="#FCF1E0"/>
+                                <path d="M24.5 13.5L13.5 24.5" stroke="url(#paint0_linear_34_4420)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.5 13.5L24.5 24.5" stroke="url(#paint1_linear_34_4420)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_34_4420" x1="19.0478" y1="13.5" x2="18.6719" y2="24.4888" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F16529"/>
+                                <stop offset="1" stop-color="#D44528"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_34_4420" x1="19.0478" y1="13.5" x2="18.6719" y2="24.4888" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F16529"/>
+                                <stop offset="1" stop-color="#D44528"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+            
+                            <div class="modal222__texts">
+                                <h4 class="modal222__texts--title">THANK YOU!</h4>
+                                <p class="modal222__texts--text">We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.</p>
+                            </div>
+                    </div>
+            </div>
+    </section>
 </main>
 <script src="./script.js"></script>
+<script src="./script1.js"></script>
 </body>
 </html>
