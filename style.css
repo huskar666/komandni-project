@@ -78,7 +78,7 @@
     display: none;
   }
   .burger-menu {
-    display: flex;
+    display: flex !important;
   }
 }
 @media (max-width: 768px) {
@@ -678,7 +678,6 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 32px;
-  background-color: white;
   max-width: 1136px;
   margin: 0 auto;
 }
@@ -2134,4 +2133,4 @@ main .top-sellers .top-sellers__container .top-sellers__container--text {
   line-height: 18px;
   letter-spacing: -0.02em;
   text-align: left;
-}
+}/*# sourceMappingURL=style.css.map */

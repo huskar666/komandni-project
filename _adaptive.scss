@@ -1,6 +1,5 @@
 @media (max-width: 1300px){
-    main{
-       
+    main{     
         .background{
             background: url('../img/background-tablet.png') !important;
             max-width: 704px !important;
@@ -10,10 +9,8 @@
                     margin-top: 671px !important;
                     & .background__container--box--footer{
                         width: 624px;
-                    }
-                 
-                }
-              
+                    }           
+                }        
             }
         }
         .prices{
@@ -43,19 +40,19 @@
     .top-sellers{
         margin-top: 100px !important;
 
-        .top-sellers__imgs{
+        & .top-sellers__imgs{
             max-width: 754px !important;
     
             & .top-sellers__imgs--img3{
                 display: none 
             }
         }
+
          .top-sellers__container{
             max-width: 754px !important;
     
             & .top-sellers__container--text{
                max-width: 306px !important;
-        
             }
           }
     }
@@ -70,10 +67,8 @@
                 max-width: 614px !important;
                 width: 100%;
 
-
                 & .videoblog__container--content--ul {
                     max-width: 464px !important;
-
                 }
             }
             .videoblog__container--image {
@@ -84,7 +79,7 @@
             display: none;
         }
     }
- }
+}
 @media (max-width: 900px) {
     .container{
         max-width: 704px !important;
@@ -95,8 +90,7 @@
     }
 
     .burger-menu {
-        display: flex;
-        
+        display: flex !important;
     }
 }
 @media (max-width: 768px){
@@ -767,4 +761,4 @@
             }
         }
     }
- }
+}
